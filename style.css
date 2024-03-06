@@ -12,12 +12,14 @@ li{
 color: black;
 }
 h1{
-    color: black;
+    
     text-transform: uppercase;
 }
 #texto{
     font:normal;
-    color: black;
+    color: black;  
+   
+   text-shadow: 1px 1px 2px yellow;
 }
 img{
     border-radius: 50%;
@@ -28,9 +30,7 @@ img:hover{
     transition: 2s all ease;
     transform: scale(1.2) ;
 }
-h3{
-    color: black;
-}
+
 div{
     background-color: rgb(23, 112, 156);
     width: 200;
@@ -38,4 +38,21 @@ div{
     padding: 20px;
     margin: 20px;
     display: inline-block;
+}
+td{
+    color: white;
+}
+input{
+    margin: 20px;
+}
+#boton{
+    color: rgb(237, 237, 248);
+    width:50px;
+    height: 20px;
+    transition: 2s all ease;
+    background-color: brown;
+}
+#boton:hover{
+    transition: 2s all ease;
+    transform: scale(1.2);
 }
